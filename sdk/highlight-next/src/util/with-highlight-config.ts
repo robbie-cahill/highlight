@@ -94,6 +94,7 @@ type NextConfigAsyncFunction = (
 	{ defaultConfig }: { defaultConfig: any },
 ) => Promise<NextConfig>
 type NextConfigInput =
+	| NextConfig
 	| NextConfigObject
 	| NextConfigFunction
 	| NextConfigAsyncFunction
