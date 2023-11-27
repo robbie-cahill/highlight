@@ -1,5 +1,11 @@
 # highlight.run
 
+## 8.2.4
+
+### Patch Changes
+
+-   c1773fa66: ensure cross origin iframe recording works even if the iframe reloads
+
 ## 8.2.3
 
 ### Patch Changes
